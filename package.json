@@ -1,0 +1,19 @@
+{
+  "name": "dotyapi",
+  "packageManager": "yarn@3.6.4",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@types/eslint": "^8",
+    "babel-loader": "^8.2.5",
+    "eslint": "latest",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

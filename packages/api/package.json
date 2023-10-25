@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "packageManager": "yarn@3.6.4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "languageName": "node",
+  "keywords": [],
+  "author": "Ifechukwu Obiezue",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect": "latest",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.14",
+    "passport": "^0.5.0",
+    "passport-github2": "^0.1.12",
+    "passport-oauth2": "1.7.0",
+    "process": "^0.11.10",
+    "ws": "^8.14.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/body-parser": "^1",
+    "@types/cookie-parser": "^1",
+    "@types/express-session": "^1",
+    "@types/ws": "^8"
+  }
+}

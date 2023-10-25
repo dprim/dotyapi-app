@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "✨ dotyapi",
+			"path": "."
+		}
+	],
+	"settings": {
+		"jslint.enable": false,
+		"dotenv.cloakIcon": "#",
+		"typescript.tsdk": "node_modules\\typescript\\lib"
+	}
+}

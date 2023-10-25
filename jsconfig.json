@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES5",
+    "module": "ES6",
+    "allowJs": true,
+    "baseUrl": "./src/js",
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "strictFunctionTypes": true,
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment"
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}
